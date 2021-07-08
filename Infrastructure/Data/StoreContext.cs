@@ -9,6 +9,7 @@ namespace Infrastructure.Data
         {
         }
 
+        //Dependenacy Injection
         public DbSet<Product> Products { get; set; }
     }
 }
