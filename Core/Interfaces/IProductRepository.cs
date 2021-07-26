@@ -9,5 +9,6 @@ namespace Core.Interfaces
         //Signature of 2 methods
         Task<Product> GetProductByIdAsync(int id);
         Task<IReadOnlyList<Product>> GetProductsAsync();
+        Task<IReadOnlyList<ProductBrand>> GetProductBrandsAsync();
     }
 }
